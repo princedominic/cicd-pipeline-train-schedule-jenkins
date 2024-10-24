@@ -4,7 +4,7 @@ plugins {
 
 node {
     version = '16.13.0'
-    npmVersion = '8.1.0'
+    npmVersion = '10.24.1'
     download = true  // Ensures Node.js gets downloaded locally
 }
 
