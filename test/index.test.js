@@ -4,7 +4,7 @@ var express = require('express');
 var app = require('../app');
  
 describe('Index Page', function() {
-  this.timeout(5000); // Increase timeout to 5 seconds for this suite
+  this.timeout(5000); // Increase timeout to 5 seconds for this suites
   it("renders successfully", function(done) {
     request(app).get('/').expect(200, done);    
   })
